@@ -1,10 +1,3 @@
-# В модуле user.py напишите APIRouter с префиксом '/user' и тегом 'user',
-# а также следующие маршруты, с пустыми функциями:
-# get '/' с функцией all_users.
-# get '/user_id' с функцией user_by_id.
-# post '/create' с функцией create_user.
-# put '/update' с функцией update_user.
-# delete '/delete' с функцией delete_user.
 from fastapi import APIRouter
 
 router = APIRouter(prefix='/user', tags=['user'])
