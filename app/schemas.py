@@ -14,13 +14,13 @@ class UpdateUser(BaseModel):
     age = int
 
 
-class CreateTsdk(BaseModel):
+class CreateTask(BaseModel):
     title: str
     content: str
     prioritY: int
 
 
-class UpdateTsdk(BaseModel):
+class UpdateTask(BaseModel):
     title: str
     content: str
     prioritY: int
