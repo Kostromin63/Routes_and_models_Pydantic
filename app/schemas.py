@@ -11,7 +11,7 @@ class CreateUser(BaseModel):
 class UpdateUser(BaseModel):
     firstname: str
     lastname: str
-    age = int
+    age: int
 
 
 class CreateTask(BaseModel):
