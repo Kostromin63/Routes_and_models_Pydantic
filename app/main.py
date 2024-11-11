@@ -1,5 +1,5 @@
+import uvicorn
 from fastapi import FastAPI
-
 from routers import task, user
 
 app = FastAPI()
@@ -11,3 +11,7 @@ async def welcom() -> dict:
 
 app.include_router(user.router)
 app.include_router(task.router)
+
+
+if __name__ == "__main__":
+    uvicorn.run("main:app", reload=True)

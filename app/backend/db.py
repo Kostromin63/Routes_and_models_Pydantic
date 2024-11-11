@@ -8,9 +8,3 @@ SessionLocal = sessionmaker(bind=engine)
 
 class Base(DeclarativeBase):
     pass
-    # def __init__(self):
-    #     super().__init__()
-
-
-# class User(Base):
-#     pass
