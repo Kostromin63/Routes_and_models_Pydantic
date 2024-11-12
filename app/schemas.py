@@ -17,7 +17,7 @@ class UpdateUser(BaseModel):
 class CreateTask(BaseModel):
     title: str
     content: str
-    prioritY: int
+    priority: int
 
 
 class UpdateTask(BaseModel):
